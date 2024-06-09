@@ -1,0 +1,238 @@
+:root {
+  --clr-nutmeg: hsl(14, 45%, 36%);
+  --clr-dark-raspberry: hsl(332, 51%, 32%);
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-rose-white: hsl(330, 100%, 98%);
+  --clr-eggshell: hsl(30, 54%, 90%);
+  --clr-light-grey: hsl(30, 18%, 87%);
+  --clr-wenge-brown: hsl(30, 10%, 34%);
+  --clr-dark-charcoal: hsl(24, 5%, 18%);
+
+  --ff-base: "Outfit", sans-serif;
+  --ff-heading: "Young Serif", serif;
+
+  --fw-normal: 400;
+  --fw-bold: 700;
+
+  --rounded-s: 0.625rem;
+  --rounded: 1rem;
+  --rounded-l: 1.25rem;
+  --rounded-xl: 1.5rem;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  box-sizing: border-box;
+}
+ul {
+  padding: 0;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  list-style: none;
+  line-height: 1.5;
+  font-size: 1rem;
+  font-family: var(--ff-base);
+  font-weight: var(--fw-normal);
+  color: var(--clr-wenge-brown);
+}
+
+.bullet-point {
+  flex-shrink: 0;
+  width: 0.25rem;
+  height: 0.25rem;
+  margin: 0 1.75rem 0 0.5rem;
+  background-color: var(--clr-nutmeg);
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: var(--clr-eggshell);
+}
+
+.card {
+  width: min(100vw, 46rem);
+  background-color: var(--clr-white);
+  height: fit-content;
+  box-shadow: rgba(149, 157, 165, 0.15) 0px 8px 24px;
+}
+
+.instruction-wrapper h2,
+.nutrition-wrapper h2,
+.ingredient-wrapper h2 {
+  font-size: 1.75rem;
+  font-family: var(--ff-heading);
+  line-height: 1;
+  color: var(--clr-nutmeg);
+}
+
+.image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+  max-height: 18.75rem;
+}
+
+.content-wrapper {
+  padding: 2.4375rem 2rem 1.5rem 2rem;
+}
+
+.content-wrapper .title {
+  font-size: 2.25rem;
+  line-height: 1;
+  margin-bottom: 1.5625rem;
+  font-family: var(--ff-heading);
+}
+
+.content-wrapper .description {
+  margin-bottom: 2rem;
+}
+.preparation-wrapper {
+  padding: 1.5rem 2rem 1.5rem 1.5rem;
+  background-color: var(--clr-rose-white);
+  border-radius: var(--rounded-s);
+  margin-bottom: 2rem;
+}
+
+.preparation-wrapper h3 {
+  line-height: 1;
+  letter-spacing: -0.0125rem;
+  font-size: 1.25rem;
+  color: var(--clr-dark-raspberry);
+  margin-bottom: 1rem;
+}
+
+.preparation-wrapper ul li {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.preparation-wrapper ul li p span {
+  font-weight: var(--fw-bold);
+}
+
+.instruction-wrapper,
+.ingredient-wrapper {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid var(--clr-light-grey);
+  padding-bottom: 1.9375rem;
+}
+
+.ingredient-wrapper ul li {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.ingredient-wrapper h2 {
+  margin-bottom: 1.5rem;
+}
+
+.instruction-wrapper h2 {
+  margin-bottom: 1.5rem;
+}
+
+.instruction-wrapper ol {
+  padding-left: 1.5rem;
+}
+
+.instruction-wrapper li {
+  margin-top: 0.5rem;
+}
+
+.instruction-wrapper li::marker {
+  font-weight: var(--fw-bold);
+  color: var(--clr-nutmeg);
+}
+
+.instruction-wrapper li span {
+  font-weight: var(--fw-bold);
+}
+
+.instruction-wrapper li p {
+  margin-left: 1rem;
+}
+
+.nutrition-wrapper > h2 {
+  margin-top: 0.0625rem;
+  margin-bottom: 1.5rem;
+}
+
+.nutrition-wrapper > p {
+  margin-bottom: 0.75rem;
+}
+
+.nutrition-wrapper table {
+  width: 100%;
+  line-height: 1;
+  margin-left: -0.125rem;
+}
+
+.nutrition-wrapper table .name {
+  padding: 0.875rem 0 0.96875rem 2rem;
+}
+.nutrition-wrapper table .value {
+  width: 50%;
+  font-weight: var(--fw-bold);
+  color: var(--clr-nutmeg);
+}
+
+.nutrition-wrapper table .mid {
+  border-bottom: 1px solid var(--clr-light-grey);
+}
+
+@media screen and (min-width: 42em) {
+  .content-wrapper {
+    padding: 2.4375rem 2.5rem 1.6875rem 2.5rem;
+  }
+  .nutrition-wrapper table .value {
+    padding-left: 0.5rem;
+  }
+  .content-wrapper .title {
+    font-size: 2.5rem;
+  }
+  .preparation-wrapper {
+    padding: 1.75rem 2rem 1.75rem 1.75rem;
+  }
+
+  .image-wrapper {
+    margin: 2.5rem 2.5rem 0 2.5rem;
+    border-radius: 0.75rem;
+    overflow: hidden;
+  }
+  .card {
+    margin: 7.6875rem 0 7.75rem 0;
+    border-radius: var(--rounded-xl);
+  }
+}
