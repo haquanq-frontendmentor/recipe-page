@@ -193,6 +193,8 @@ strong {
 }
 .recipe__nutrition__table__row .name {
   padding: 1rem 0 1rem 2rem;
+  text-align: start;
+  font-weight: var(--font-normal);
 }
 .recipe__nutrition__table__row .value {
   width: calc(50%);
