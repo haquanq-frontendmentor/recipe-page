@@ -3,26 +3,56 @@
 This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm).
 Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-### Challenge
+## Table of contents
 
-- No access to design files, attempt pixel-perfect
+- [Project overview](#project-overview)
+- [Development workflow](#development-workflow)
+- [Working in this repository](#working-in-this-repository)
+- [License](#license)
 
-Users should be able to:
+## :rocket: Project overview {#project-overview}
 
-- View the optimal layout for the site depending on their device's screen size
+### Challenge requirements
 
-### Solution
+Non-functional requirement:
 
-- Built with: `HTML` `CSS`
-- Mobile-first workflow
+- View the optimal layout depending on their device's screen size
+- Screen readers can navigate users in ways they can perceive
+
+### Implemented features
+
+- Working
+
+### Screenshots
 
 ![](./.docs/design/desktop-design.jpg)
 
-## Working in `fm-recipe-page` repository
+## :boat: Development workflow {#development-workflow}
+
+### Approach
+
+Developed with mobile-first workflow.
+
+### Built with
+
+| Tool          | Note                               |
+| ------------- | ---------------------------------- |
+| `HTML`        | Standard markup language           |
+| `CSS`         | Vanilla CSS                        |
+| `BrowserSync` | Development server, live reloading |
+
+## :astronaut: Working in `fm-recipe-page` repository {#working-in-this-repository}
+
+### Presequisites
+
+Having these tools installed:
+
+- Git (prefer lastest LTS version)
+- NodeJS (prefer latest LTS version)
 
 ### Clone this project to your machine
 
-Make sure you have Git installed in your system, open new terminal, run the following command:
+Open new terminal, run the following command:
 
 ```
 git clone https://github.com/haquanq/fm-recipe-page.git
@@ -41,3 +71,7 @@ In terminal, run `npm run dev` to start development server:
 ```
 npm run dev
 ```
+
+## :page_with_curl: License {#license}
+
+This project follows [MIT License](./LICENSE). **DO NOT** use this project as your solution on [Frontend mentor](https://www.frontendmentor.io/solutions).
