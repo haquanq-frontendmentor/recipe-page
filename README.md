@@ -5,12 +5,12 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 ## Table of contents
 
-- [Project overview](#project-overview)
-- [Development workflow](#development-workflow)
-- [Working in this repository](#working-in-this-repository)
-- [License](#license)
+- [Project overview](#rocket-project-overview)
+- [Development workflow](#boat-development-workflow)
+- [Working in this repository](#astronaut-working-in-fm-recipe-page-repository)
+- [License](#page_with_curl-license)
 
-## :rocket: Project overview {#project-overview}
+## :rocket: Project overview
 
 ### Challenge requirements
 
@@ -21,13 +21,13 @@ Non-functional requirement:
 
 ### Implemented features
 
-- Working
+- Working on it
 
 ### Screenshots
 
 ![](./.docs/design/desktop-design.jpg)
 
-## :boat: Development workflow {#development-workflow}
+## :boat: Development workflow
 
 ### Approach
 
@@ -41,7 +41,7 @@ Developed with mobile-first workflow.
 | `CSS`         | Vanilla CSS                        |
 | `BrowserSync` | Development server, live reloading |
 
-## :astronaut: Working in `fm-recipe-page` repository {#working-in-this-repository}
+## :astronaut: Working in `fm-recipe-page` repository
 
 ### Presequisites
 
@@ -72,6 +72,6 @@ In terminal, run `npm run dev` to start development server:
 npm run dev
 ```
 
-## :page_with_curl: License {#license}
+## :page_with_curl: License
 
 This project follows [MIT License](./LICENSE). **DO NOT** use this project as your solution on [Frontend mentor](https://www.frontendmentor.io/solutions).
