@@ -8,8 +8,8 @@
     --color-wenge-brown: hsl(30, 10%, 34%);
     --color-dark-charcoal: hsl(24, 5%, 18%);
 
-    --font-sans: "Outfit", sans-serif;
-    --font-serif: "Young Serif", serif;
+    --font-main: "Outfit", sans-serif;
+    --font-accent: "Young Serif", serif;
 
     --font-normal: 400;
     --font-bold: 700;
@@ -37,7 +37,7 @@
 body {
     -webkit-font-smoothing: antialiased;
     line-height: var(--leading-none);
-    font-family: var(--font-sans);
+    font-family: var(--font-main);
     font-size: var(--text-body);
 }
 img {
@@ -51,7 +51,7 @@ h4,
 h5,
 h6 {
     overflow-wrap: break-word;
-    font-family: var(--font-serif);
+    font-family: var(--font-accent);
     font-weight: var(--font-normal);
 }
 strong {
