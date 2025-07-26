@@ -28,7 +28,6 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 - [Project overview](#rocket-project-overview)
 - [Development workflow](#boat-development-workflow)
 - [Working in this repository](#astronaut-working-in-fm-recipe-page-repository)
-- [License](#page_with_curl-license)
 
 ## :rocket: Project overview
 
@@ -91,7 +90,3 @@ In terminal, run `npm run dev` to start development server:
 ```
 npm run dev
 ```
-
-## :page_with_curl: License
-
-This project follows [MIT License](./LICENSE). **DO NOT** use this project as your solution on [Frontend mentor](https://www.frontendmentor.io/solutions).
