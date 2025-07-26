@@ -8,14 +8,12 @@ Frontend Mentor challenges help you improve your coding skills by building reali
     <img
       alt="Solution post"
       src="https://img.shields.io/badge/Frontendmentor-blue?label=Solution%20on&style=flat-square"
-    />
-  </a>
+    /></a>
   <a href="https://haquanq-frontendmentor.github.io/recipe-page/">
     <img
       alt="Live demo"
       src="https://img.shields.io/badge/Demo-teal?label=Live&style=flat-square"
-    />
-  </a>
+    /></a>
   <a href="./LICENSE"
     ><img
       allt="MIT License"
