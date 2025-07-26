@@ -3,6 +3,26 @@
 This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm).
 Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
+<p>
+  <a href="https://www.frontendmentor.io/solutions/pixel-perfect-with-html-and-css-uXALFcktnl">
+    <img
+      alt="Solution post"
+      src="https://img.shields.io/badge/Frontendmentor-blue?label=Solution%20on&style=flat-square"
+    />
+  </a>
+  <a href="https://haquanq-frontendmentor.github.io/recipe-page/">
+    <img
+      alt="Live demo"
+      src="https://img.shields.io/badge/Demo-teal?label=Live&style=flat-square"
+    />
+  </a>
+  <a href="./LICENSE"
+    ><img
+      allt="MIT License"
+      src="https://img.shields.io/badge/MIT-blue?style=flat-square&label=license"
+  /></a>
+</p>
+
 ## Table of contents
 
 - [Project overview](#rocket-project-overview)
