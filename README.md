@@ -43,9 +43,9 @@ Accessibility
 - [x] Content uses semantic HTML elements
 - [x] Page is responsive to different screen sizes
 
-### Screenshots
+### Preview
 
-![](./.docs/design/desktop-design.jpg)
+![](./docs/design/desktop-design.jpg)
 
 ## :stars: Development workflow
 
