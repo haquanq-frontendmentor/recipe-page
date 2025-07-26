@@ -33,14 +33,15 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 ### Challenge requirements
 
-Non-functional requirement:
-
 - View the optimal layout depending on their device's screen size
 - Screen readers can navigate users in ways they can perceive
 
-### Implemented features
+### Implementations
 
-- Working on it
+Accessibility
+
+- [x] Content uses semantic HTML elements
+- [x] Page is responsive to different screen sizes
 
 ### Screenshots
 
