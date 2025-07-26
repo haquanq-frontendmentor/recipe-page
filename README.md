@@ -25,11 +25,11 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 ## Table of contents
 
-- [Project overview](#rocket-project-overview)
-- [Development workflow](#boat-development-workflow)
+- [Project overview](#sunrise-project-overview)
+- [Development workflow](#stars-development-workflow)
 - [Working in this repository](#astronaut-working-in-this-repository)
 
-## :rocket: Project overview
+## :sunrise: Project overview
 
 ### Challenge requirements
 
@@ -46,7 +46,7 @@ Non-functional requirement:
 
 ![](./.docs/design/desktop-design.jpg)
 
-## :boat: Development workflow
+## :stars: Development workflow
 
 ### Approach
 
