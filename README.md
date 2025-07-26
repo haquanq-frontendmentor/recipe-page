@@ -27,7 +27,7 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 - [Project overview](#rocket-project-overview)
 - [Development workflow](#boat-development-workflow)
-- [Working in this repository](#astronaut-working-in-fm-recipe-page-repository)
+- [Working in this repository](#astronaut-working-in-this-repository)
 
 ## :rocket: Project overview
 
@@ -60,7 +60,7 @@ Developed with mobile-first workflow.
 | `CSS`         | Vanilla CSS                        |
 | `BrowserSync` | Development server, live reloading |
 
-## :astronaut: Working in `fm-recipe-page` repository
+## :astronaut: Working in this repository
 
 ### Presequisites
 
