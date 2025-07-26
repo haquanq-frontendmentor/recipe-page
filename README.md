@@ -53,13 +53,14 @@ Accessibility
 
 Developed with mobile-first workflow.
 
-### Built with
+### Tools
 
-| Tool          | Note                               |
-| ------------- | ---------------------------------- |
-| `HTML`        | Standard markup language           |
-| `CSS`         | Vanilla CSS                        |
-| `BrowserSync` | Development server, live reloading |
+- **HTML + CSS:** vanilla CSS for styling
+- **Browsersync:** live development server (sync files changes)
+
+### Deployment
+
+- Deployed on github page using Github Actions (manually triggered).
 
 ## :astronaut: Working in this repository
 
