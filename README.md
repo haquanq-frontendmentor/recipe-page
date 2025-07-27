@@ -7,17 +7,17 @@ Frontend Mentor challenges help you improve your coding skills by building reali
   <a href="https://www.frontendmentor.io/solutions/pixel-perfect-with-html-and-css-uXALFcktnl">
     <img
       alt="Solution post"
-      src="https://img.shields.io/badge/Frontendmentor-blue?label=Solution%20on&style=flat-square"
+      src="https://img.shields.io/badge/Frontendmentor-blue?label=Solution%20on"
     /></a>
   <a href="https://haquanq-frontendmentor.github.io/recipe-page/">
     <img
       alt="Live demo"
-      src="https://img.shields.io/badge/Demo-teal?label=Live&style=flat-square"
+      src="https://img.shields.io/badge/Demo-teal?label=Live"
     /></a>
   <a href="./LICENSE"
     ><img
       allt="MIT License"
-      src="https://img.shields.io/badge/MIT-blue?style=flat-square&label=license"
+      src="https://img.shields.io/badge/MIT-blue?label=license"
   /></a>
 </p>
 
@@ -34,7 +34,7 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 - View the optimal layout depending on their device's screen size
 - Screen readers can navigate users in ways they can perceive
 
-### Implementations
+### Todo
 
 Accessibility
 
