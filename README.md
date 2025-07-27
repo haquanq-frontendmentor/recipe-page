@@ -74,7 +74,7 @@ Having these tools installed:
 Open new terminal, run the following command:
 
 ```
-git clone https://github.com/haquanq/fm-recipe-page.git
+git clone https://github.com/haquanq-frontendmentor/recipe-page.git
 ```
 
 Then, run `npm install` to install all dependencies.
