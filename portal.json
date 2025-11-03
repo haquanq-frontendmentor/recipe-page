@@ -1,0 +1,15 @@
+{
+  "name": "Recipe Page",
+  "featured": false,
+  "colors": {
+    "brand": "#7B284F"
+  },
+  "images": {
+    "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/recipe-page/main/docs/preview.jpg"
+  },
+  "frontendmentor": {
+    "difficulty": "newbie",
+    "challengeUrl": "https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm",
+    "solutionUrl": "https://www.frontendmentor.io/solutions/pixel-perfect-with-html-and-css-uXALFcktnl"
+  }
+}
