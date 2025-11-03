@@ -1,4 +1,4 @@
-## Frontend Mentor - Recipe page solution
+## Frontend Mentor - Recipe Page Solution
 
 This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm).
 Frontend Mentor challenges help you improve your coding skills by building realistic projects.
@@ -21,72 +21,66 @@ Frontend Mentor challenges help you improve your coding skills by building reali
   /></a>
 </p>
 
-## Table of contents
+![](./docs/preview.jpg)
 
-- [Project overview](#sunrise-project-overview)
-- [Development workflow](#stars-development-workflow)
-- [Working in this repository](#astronaut-working-in-this-repository)
+## Table of Contents
 
-## :sunrise: Project overview
+- [Project Overview](#sunrise-project-overview)
+- [Tech Stack and Approach](#stars-tech-stack-and-approach)
+- [Local Development](#leaves-local-development)
+- [Deployment](#maple_leaf-deployment)
 
-### Challenge requirements
+## :sunrise: Project Overview
+
+### Challenge Requirements
 
 - View the optimal layout depending on their device's screen size
 - Screen readers can navigate users in ways they can perceive
 
-### Todo
+### Status
 
 Accessibility
 
 - [x] Content uses semantic HTML elements
 - [x] Page is responsive to different screen sizes
 
-### Preview
+## :stars: Tech Stack and Approach
 
-![](./docs/design/desktop-design.jpg)
+### Built with
 
-## :stars: Development workflow
+- **HTML5** – Semantic structure
+- **Vanilla CSS** – Flex layout
+- **BrowserSync** - Easy development server
 
 ### Approach
 
-Developed with mobile-first workflow.
+- Mobile-first workflow for better performance on smaller devices
+- Accessibility guided by [ARIA Authoring Practices Guide (APG)](https://www.w3.org/WAI/ARIA/apg/).
 
-### Tools
+## :leaves: Local Development
 
-- **HTML + CSS:** vanilla CSS for styling
-- **Browsersync:** live development server (sync files changes)
+### Prerequisites
 
-### Deployment
+Install the following:
 
-- Deployed on github page using Github Actions (manually triggered).
+- Git (latest version)
+- Node.js (latest LTS recommended)
+- pnpm (latest version)
 
-## :astronaut: Working in this repository
-
-### Presequisites
-
-Having these tools installed:
-
-- Git (prefer lastest LTS version)
-- NodeJS (prefer latest LTS version)
-
-### Clone this project to your machine
-
-Open new terminal, run the following command:
+### Setup
 
 ```
 git clone https://github.com/haquanq-frontendmentor/recipe-page.git
+cd recipe-page
+pnpm install
 ```
 
-Then, run `npm install` to install all dependencies.
+### Start Development Server
 
 ```
-npm install
+pnpm dev
 ```
 
-### Start development server
+## :maple_leaf: Deployment
 
-In terminal, run `npm run dev` to start development server:
-
-```
-npm run dev
-```
+Deployed to Github Pages via Github Action.
